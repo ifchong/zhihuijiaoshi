@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>教室预约系统</title>
+    <title>广东第二师范学院海珠校区物院二楼智慧教室预约系统（仅供记录用）</title>
     <style>
         :root {
             --primary: #4a7bff;
@@ -244,14 +244,14 @@
                 <h2>借用须知</h2>
                 <div style="background:#f8f9fa; padding:20px; border-radius:8px; border-left:4px solid var(--primary);">
                     <ul>
-                        <li>教室开放时间为每日9:00-23:00，请在开放时间内使用</li>
+                        <li>教室开放时间为每日9:00-21:00，请在开放时间内使用</li>
                         <li>每人每次借用时长为1或2小时，需至少提前一天预约</li>
                         <li>请保持教室整洁，爱护公共设施设备</li>
                         <li>借用需遵守学校相关规定，不得进行商业活动或非法用途</li>
-                        <li>如需取消或修改预约，请提前联系管理员</li>
-                        <li>借用时需出示有效身份证件配合验证</li>
+                        <li>如需取消或修改预约，请提前联系管理员（陈宇锋 15768819850）</li>
                         <li>禁止携带食物进入教室，保持环境卫生</li>
                         <li>节约用电，离开时请关闭所有设备及照明</li>
+                        <li>网站管理员只有本教室的暂用权，如果在使用过程中有老师要使用这间教室，需让位给老师使用</li>
                     </ul>
                 </div>
             </section>
@@ -412,7 +412,7 @@
         function generateAvailableTimes(bookings, duration) {
             const times = [];
             const startHour = 9;
-            const endHour = 23 - duration;
+            const endHour = 21 - duration;
             
             // 创建时间占用映射
             const timeMap = new Map();
